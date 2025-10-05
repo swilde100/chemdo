@@ -1,12 +1,112 @@
 {
-  "elements": [
-    {"name": "Hydrogen", "symbol": "H", "atomic_number": 1},
-    {"name": "Helium", "symbol": "He", "atomic_number": 2},
-    {"name": "Lithium", "symbol": "Li", "atomic_number": 3}
-  ],
-  "compounds": [
-    {"name": "Water", "formula": "H2O"},
-    {"name": "Carbon Dioxide", "formula": "CO2"},
-    {"name": "Sodium Chloride", "formula": "NaCl"}
+  "topic": "Ionic Bonding",
+  "version": "1.0",
+  "last_updated": "2025-10-05T12:00:00Z",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is an ionic bond?",
+      "options": [
+        "A chemical bond formed by sharing a pair of electrons between atoms",
+        "A chemical bond formed by the electrostatic attraction between oppositely charged ions",
+        "A bond between two nonmetal atoms",
+        "A weak attraction between neutral molecules"
+      ],
+      "answer_index": 1,
+      "answer": "A chemical bond formed by the electrostatic attraction between oppositely charged ions",
+      "difficulty": 1,
+      "learning_objective": "Define ionic bonding",
+      "skills": ["recall"],
+      "explanation": "Ionic bonds form when one atom transfers electrons to another, producing positive and negative ions that attract each other.",
+      "distractor_rationale": {
+        "0": "Describes covalent bonding (electron sharing), not ionic.",
+        "2": "Ionic bonds commonly form between metals and nonmetals, not between two nonmetals.",
+        "3": "Describes van der Waals / intermolecular forces, not ionic bonds."
+      }
+    },
+    {
+      "id": 2,
+      "question": "Which ion is produced when sodium atoms lose one electron?",
+      "options": [
+        "Na⁻",
+        "Na⁺",
+        "Na²⁺",
+        "NaO"
+      ],
+      "answer_index": 1,
+      "answer": "Na⁺",
+      "difficulty": 1,
+      "learning_objective": "Recognise simple ion formation from electron loss/gain",
+      "skills": ["recall"],
+      "explanation": "When sodium loses one electron it becomes a singly charged positive ion, Na⁺.",
+      "distractor_rationale": {
+        "0": "Na⁻ would be a negatively charged ion (gained an electron) — incorrect for Na losing an electron.",
+        "2": "Na²⁺ would require loss of two electrons; sodium typically loses one.",
+        "3": "NaO is not a single sodium ion; it's a compound fragment and incorrect here."
+      }
+    },
+    {
+      "id": 3,
+      "question": "When magnesium reacts with chlorine to form magnesium chloride (MgCl₂), what happens?",
+      "options": [
+        "Each magnesium atom loses two electrons; each chlorine atom gains one electron",
+        "Magnesium shares electrons with chlorine to form covalent bonds",
+        "Each magnesium atom gains two electrons; each chlorine atom loses one",
+        "Magnesium and chlorine form a metallic bond"
+      ],
+      "answer_index": 0,
+      "answer": "Each magnesium atom loses two electrons; each chlorine atom gains one electron",
+      "difficulty": 2,
+      "learning_objective": "Explain electron transfer and stoichiometry in ionic compounds",
+      "skills": ["understanding", "application"],
+      "explanation": "Magnesium (Mg) loses two electrons to form Mg²⁺; each chlorine atom gains one electron to form Cl⁻. Two Cl⁻ ions balance one Mg²⁺, giving MgCl₂.",
+      "distractor_rationale": {
+        "1": "Electron sharing is covalent bonding, not what happens here.",
+        "2": "This reverses the actual electron transfer; magnesium does not gain electrons in this reaction.",
+        "3": "Metallic bonding occurs between metal atoms, not between magnesium and chlorine."
+      }
+    },
+    {
+      "id": 4,
+      "question": "Which property is typical of ionic compounds compared with covalent molecular compounds?",
+      "options": [
+        "They have high melting and boiling points and conduct electricity when molten or dissolved in water",
+        "They usually have low melting points and exist as gases at room temperature",
+        "They never conduct electricity in any state",
+        "They are always insoluble in water"
+      ],
+      "answer_index": 0,
+      "answer": "They have high melting and boiling points and conduct electricity when molten or dissolved in water",
+      "difficulty": 2,
+      "learning_objective": "Compare physical properties of ionic vs covalent compounds",
+      "skills": ["analysis"],
+      "explanation": "Ionic compounds form strong lattices (high melting/boiling points). Their ions are mobile when molten or in solution, so they conduct electricity.",
+      "distractor_rationale": {
+        "1": "Low melting points and gaseous state describe many covalent molecular compounds, not ionic lattices.",
+        "2": "Ionic compounds can conduct electricity when molten or dissolved; this statement is false.",
+        "3": "Many ionic compounds are soluble in water; this statement is too absolute and false."
+      }
+    },
+    {
+      "id": 5,
+      "question": "Which of these compounds would you expect to have the highest lattice energy (strongest ionic attraction)?",
+      "options": [
+        "LiF",
+        "NaF",
+        "KCl",
+        "MgO"
+      ],
+      "answer_index": 3,
+      "answer": "MgO",
+      "difficulty": 3,
+      "learning_objective": "Apply Coulomb's law qualitatively to predict lattice energy",
+      "skills": ["application", "critical thinking"],
+      "explanation": "Lattice energy increases with larger ionic charges and smaller ionic radii. MgO has +2 and −2 ions, so the charge product is larger than the others (which are +1/−1), giving MgO the highest lattice energy.",
+      "distractor_rationale": {
+        "0": "LiF has small ions (which increases lattice energy) but only +1/−1 charges — smaller than +2/−2 in MgO.",
+        "1": "NaF is similar to LiF but Na⁺ is larger than Li⁺, reducing lattice energy relative to LiF and far below MgO.",
+        "2": "KCl has larger ions and only +1/−1 charges, so its lattice energy is lower."
+      }
+    }
   ]
 }
