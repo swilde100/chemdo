@@ -1,0 +1,12 @@
+{
+  "elements": [
+    {"name": "Hydrogen", "symbol": "H", "atomic_number": 1},
+    {"name": "Helium", "symbol": "He", "atomic_number": 2},
+    {"name": "Lithium", "symbol": "Li", "atomic_number": 3}
+  ],
+  "compounds": [
+    {"name": "Water", "formula": "H2O"},
+    {"name": "Carbon Dioxide", "formula": "CO2"},
+    {"name": "Sodium Chloride", "formula": "NaCl"}
+  ]
+}
