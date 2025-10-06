@@ -33,7 +33,7 @@
       "title": "Investigating the formation of ionic compounds",
       "description": "Reacting sodium with chlorine gas to observe the formation of sodium chloride crystals.",
       "equipment": ["Sodium metal", "Chlorine gas", "Glass container", "Safety equipment"],
-      "safety_notes": ["Handle sodium metal with care; chlorine gas is toxic."]
+      "safety_notes": ["Handle sodium metal with care; chlorine gas is flammable."]
     }
   ],
   "questions": [
