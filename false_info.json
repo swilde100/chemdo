@@ -1,1 +1,82 @@
-
+{
+  "concept_id": "chem-001",
+  "name": "Ionic Bonding",
+  "description": "Ionic bonding is the electrostatic attraction between oppositely charged ions formed by the transfer of electrons from a metal to a non-metal.",
+  "keywords": ["electrostatic attraction", "electron transfer", "metal", "non-metal", "ions"],
+  "examples": [
+    {
+      "example_id": "ex-001",
+      "description": "Formation of sodium chloride (NaCl) from sodium (Na) and chlorine (Cl).",
+      "reaction": "2Na + Cl₂ → 2NaCl",
+      "diagram_url": "https://www.chemguide.co.uk/atoms/bonding/ionic.html"
+    },
+    {
+      "example_id": "ex-002",
+      "description": "Formation of magnesium oxide (MgO) from magnesium (Mg) and oxygen (O₂).",
+      "reaction": "2Mg + O₂ → 2MgO",
+      "diagram_url": "https://www.chemguide.co.uk/atoms/bonding/ionic.html"
+    }
+  ],
+  "key_points": [
+    "Ionic bonds form when electrons are transferred from one atom to another.",
+    "The metal atom loses electrons to become a positively charged ion (cation).",
+    "The non-metal atom gains electrons to become a negatively charged ion (anion).",
+    "The oppositely charged ions attract each other, forming a stable ionic compound."
+  ],
+  "common_misconceptions": [
+    "Ionic bonds involve the sharing of electrons (this is covalent bonding).",
+    "Ionic compounds are always gases at room temperature (many are solids)."
+  ],
+  "practical_activities": [
+    {
+      "activity_id": "act-001",
+      "title": "Investigating the formation of ionic compounds",
+      "description": "Reacting sodium with chlorine gas to observe the formation of sodium chloride crystals.",
+      "equipment": ["Sodium metal", "Chlorine gas", "Glass container", "Safety equipment"],
+      "safety_notes": ["Handle sodium metal with care; chlorine gas is flammable."]
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "q-001",
+      "type": "multiple_choice",
+      "stem": "Which statement best describes ionic bonding?",
+      "choices": [
+        "A: Sharing electrons between atoms.",
+        "B: Transfer of electrons from a metal to a non-metal.",
+        "C: Movement of protons between atoms.",
+        "D: Formation of molecules with covalent bonds."
+      ],
+      "answer": "B"
+    },
+    {
+      "question_id": "q-002",
+      "type": "short_answer",
+      "stem": "Explain why ionic compounds generally have high melting points."
+    },
+    {
+      "question_id": "q-003",
+      "type": "diagram",
+      "stem": "Draw a diagram showing the electron transfer in sodium chloride formation.",
+      "hints": ["Show Na atom losing an electron.", "Show Cl atom gaining an electron."]
+    }
+  ],
+  "media": [
+    {
+      "media_id": "media-001",
+      "type": "video",
+      "title": "Ionic Bonding Explained",
+      "url": "https://www.chemguide.co.uk/14to16/atoms/ionic.html"
+    },
+    {
+      "media_id": "media-002",
+      "type": "article",
+      "title": "Understanding Ionic Bonding",
+      "url": "https://www.chemguide.co.uk/14to16/atoms/ionic.html"
+    }
+  ],
+  "related_concepts": [
+    {"concept_id": "chem-002", "name": "Covalent Bonding"},
+    {"concept_id": "chem-003", "name": "Metallic Bonding"}
+  ]
+}
